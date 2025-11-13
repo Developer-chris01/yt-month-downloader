@@ -4,11 +4,8 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-green)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
-**Download every video from a YouTube channel in a specific month** — automatically saved into a clean folder:
-Sehnend_2025-10/
-├── My Deep Video [abc123].mp4
-├── Philosophy Explained [xyz789].mp4
-└── The Meaning of Life [def456].mp4
+**Download every video from a YouTube channel in a specific month** — autom
+
 text---
 
 ## Features
@@ -26,6 +23,7 @@ text---
 ## Installation
 
 ```bash
+
 # 1. Clone the repo
 git clone https://github.com/yourname/yt-month-downloader.git
 cd yt-month-downloader
@@ -36,17 +34,36 @@ pip install .
 # 3. (Recommended) Install yt-dlp globally
 pip install yt-dlp
 
-Usage
+```
+
+## Usage
+
 Option 1: API Key in Environment (Recommended)
+
+```bash
+
 export YT_API_KEY="your_actual_api_key_here"
 yt-month
+
+```
+
 Option 2: Enter Key at Prompt
+
+```bash
+
 yt-month
+
+```
+
     You will be prompted:
+    text---
     Enter channel handle: @Sehnend.
     Enter year: 2025
     Enter month (1-12): 10
+    ---
+
 Example Output
+text---
 YouTube Month Downloader v1.0.0
 
 Enter channel handle: @Sehnend.
@@ -59,21 +76,28 @@ Starting download...
 ...
 All done! Saved in: Sehnend_2025-10/
 
+---
+
 Folder Structure After Download
+---text
 yt-month-downloader/
 ├── Sehnend_2025-10/
-│   ├── Deep Thoughts [abc123].mp4
-│   ├── Philosophy [xyz789].mp4
-│   └── .urls.txt (deleted)
+│ ├── Deep Thoughts [abc123].mp4
+│ ├── Philosophy [xyz789].mp4
+│ └── .urls.txt (deleted)
 ├── yt_month_downloader/
-│   ├── __init__.py
-│   ├── __main__.py
-│   └── core.py
+│ ├── **init**.py
+│ ├── **main**.py
+│ └── core.py
 ├── pyproject.toml
 ├── README.md
 └── .gitignore
 
+---
+
 Development
+
+```bash
 # Edit code
 nano yt_month_downloader/core.py
 
@@ -82,6 +106,7 @@ python -m yt_month_downloader
 
 # Build wheel
 python -m build
+```
 
 Versioning
 Version,Description
@@ -94,7 +119,6 @@ Python 3.8+
 YouTube Data API v3 key
 yt-dlp (for downloading)
 
-
 License
 MIT License – Free to use, modify, and distribute.
 
@@ -102,19 +126,6 @@ Author
 Your Chris
 GitHub: @Developer-chris01
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 ```
