@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-month-downloader"
+version = "1.0.0"
+description = "Download all YouTube videos from a channel in a specific month"
+authors = [{name = "developer-chris", email = "chrispinmm001@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "yt-dlp",
+    "rich"
+]
+
+[project.scripts]
+yt-month = "yt_month_downloader.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/developer-chris01/yt-month-downloader"
