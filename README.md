@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-green)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
-**Download every video from a YouTube channel in a specific month** — autom
+**Download every video from a YouTube channel in a specific month**
 
 text---
 
@@ -56,30 +56,12 @@ yt-month
 ```
 
     You will be prompted:
-    text---
+
     Enter channel handle: @Sehnend.
     Enter year: 2025
     Enter month (1-12): 10
-    ---
-
-Example Output
-text---
-YouTube Month Downloader v1.0.0
-
-Enter channel handle: @Sehnend.
-Enter year: 2025
-Enter month (1-12): 10
-Channel: Sehnend
-Found 3 video(s) → Sehnend_2025-10/
-Starting download...
-[download] Destination: Sehnend_2025-10/Deep Thoughts [abc123].mp4
-...
-All done! Saved in: Sehnend_2025-10/
-
----
 
 Folder Structure After Download
----text
 yt-month-downloader/
 ├── Sehnend_2025-10/
 │ ├── Deep Thoughts [abc123].mp4
@@ -92,8 +74,6 @@ yt-month-downloader/
 ├── pyproject.toml
 ├── README.md
 └── .gitignore
-
----
 
 Development
 
@@ -123,9 +103,4 @@ License
 MIT License – Free to use, modify, and distribute.
 
 Author
-Your Chris
 GitHub: @Developer-chris01
-
-```
-
-```
